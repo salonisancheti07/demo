@@ -1,0 +1,10 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.main-content {
+  flex: 1;
+  background-color: #f8f8f8;
+}

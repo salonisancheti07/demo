@@ -1,0 +1,51 @@
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #f9f9f9;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007b5f;
+  margin-bottom: 30px;
+}
+
+.nav-section {
+  margin-bottom: 50px;
+}
+
+.nav-section h4 {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.nav-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.nav-section li {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  color: #222;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.nav-section li svg {
+  margin-right: 10px;
+}
+
+.nav-section li:hover {
+  color: #007b5f;
+}
